@@ -1,0 +1,38 @@
+
+ff: parsing domain file
+domain 'PLANIFICADOR' defined
+ ... done.
+ff: parsing problem file
+problem 'EXTENSION1_1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+advancing to distance:    4
+                          3
+                          2
+                          1
+                          0
+
+ff: found legal plan as follows
+
+step    0: ELABORAR_TAREA T2 P1
+        1: REVISAR_TAREA T2 P3
+        2: ELABORAR_TAREA T1 P1
+        3: REVISAR_TAREA T1 P3
+     
+
+time spent:    0.00 seconds instantiating 12 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 20 facts and 12 actions
+               0.00 seconds creating final representation with 20 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 15 states, to a max depth of 0
+               0.00 seconds total time
+
